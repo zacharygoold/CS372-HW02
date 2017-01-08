@@ -1,0 +1,26 @@
+
+public class Kid extends Person{
+
+	//VARIABLES
+	String favoriteCandy;
+	
+	
+	//CONSTRUCTORS
+	public Kid(){
+		favoriteCandy = null;
+	}
+	public Kid(String candy){
+		favoriteCandy = candy;
+	}
+	
+	//SET FUNCTIONS
+	public void setCandy(String Candy){
+		favoriteCandy = Candy;
+	}
+	
+	//GET FUNCTIONS
+	public String getCandy(){
+		return favoriteCandy;
+	}
+	
+}

@@ -1,0 +1,39 @@
+
+public class Police extends Person {
+	public enum Role{
+		Patrol, Sargent, Captain, Chief;
+	}
+	public Role getRole(){
+		return Role;
+	}
+}	
+
+
+
+
+/*
+	//VARIABLES
+	String policeRole;
+	boolean isPolice;
+	
+	//CONSTRUCTORS
+	public Police(){
+		policeRole = null;
+		isPolice = true;
+	}
+	public Police(String role){
+		policeRole = role;
+		isPolice = true;
+	}
+	
+	//SET FUNCTIONS
+	public void setRole(String role){
+		policeRole = role;
+	}
+	
+	//GET FUNCTIONS
+	public String getRole(){
+		return policeRole;
+	}
+*/
+

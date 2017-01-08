@@ -1,0 +1,15 @@
+
+public class Police extends Person {
+
+	String policeRole;
+	
+	public Police(){
+		policeRole = null;
+	}
+	
+	public Police(String role){
+		policeRole = role;
+	}
+
+	
+}
